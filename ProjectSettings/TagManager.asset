@@ -7,6 +7,7 @@ TagManager:
   - Gem
   - PreventStuckOnWall
   - Startup
+  - item
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - items
   - Ground
   - CameraBounds
   - Player
@@ -88,4 +89,7 @@ TagManager:
     locked: 0
   - name: Layer-6
     uniqueID: 2569035313
+    locked: 0
+  - name: New Layer 16
+    uniqueID: 2985035635
     locked: 0
