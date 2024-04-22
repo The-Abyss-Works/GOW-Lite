@@ -114,7 +114,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 240, y: 28}
+    spritePosition: {x: 269, y: 29}
   characterData:
     bones: []
     parts: []
