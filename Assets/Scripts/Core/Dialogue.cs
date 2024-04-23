@@ -24,26 +24,23 @@ public class Dialogue : MonoBehaviour
 
         //NPC
         dialogue.Add("CharacterA", new string[] {
-            "Hi there!",
-            "I'm an NPC! This conversation is called 'npcA'...",
-            "If you go and find me 80 coins, my dialogue will move on to 'npcB'!",
-            "Feel free to edit my dialogue in the 'Dialogue.cs' file!",
-            "To keep it simple, you can also ask me one, and only one, question...",
-            "...Like you just did! And I'll just move on to the next sentence.",
-            "I'll answer that question, but it won't change much about the game!",
-            "You can always tweak the 'DialogueBox.cs' script to add more functionality!"
+            "Father!!",
+            "You're Back!",
+            "A man Came to Find You...",
+            "...I've sent him to the Back Forest",
+            "He looked Dangerous"
         });
 
         dialogue.Add("CharacterAChoice1", new string[] {
             "",
             "",
-            "Let me go find some coins!",
+            "A man?",
         });
 
         dialogue.Add("CharacterAChoice2", new string[] {
             "",
             "",
-            "What else can you do?"
+            "Where is he?"
         });
 
         dialogue.Add("CharacterB", new string[] {
@@ -52,5 +49,26 @@ public class Dialogue : MonoBehaviour
             "And I'll also give you a new ability!",
             "In this case, how about a generic DOWNWARD SMASH? Simply attack while pressing down in mid-air!"
         });
+
+        dialogue.Add("Start", new string[] {
+            "*Sigh*",
+            "It's a note?",
+            "*It's a Note By Atreus*",
+            "...Father, I've Already Went back to the hut",
+            "Come soon"
+        });
+
+        dialogue.Add("Start2", new string[] {
+            "*Hmm*",
+            "I feel like something is goingg to happen",
+            "Let me Get back to the hut First"
+        });
+
+        dialogue.Add("Quest", new string[] {
+            "Get Back To Atreus",
+        });
+
+
+
     }
 }
