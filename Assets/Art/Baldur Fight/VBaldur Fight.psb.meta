@@ -94,49 +94,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Layer 2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 2172
-      width: 1280
-      height: 720
-    spriteID: 6e9c1cd39e3e05241aaec5b13ae2ca69
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 2172}
-    spritePosition: {x: 2560, y: 1440}
-  - name: Layer 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1292
-      y: 2172
-      width: 1248
-      height: 720
-    spriteID: 964d81ba460e2c0429e0e64658a40bd0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1292, y: 2172}
-    spritePosition: {x: 0, y: 1440}
-  - name: Background
+  - name: Hut
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -145,9 +103,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 3840
-      height: 2160
-    spriteID: 80cbde4e43b03f7489bc6ea879a96ed4
+      width: 2156
+      height: 1723
+    spriteID: 7f0b5581c749ab048a0cc9131a72fc42
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,7 +114,133 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 1221, y: 0}
+  - name: MOuntain2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1735
+      width: 1932
+      height: 1334
+    spriteID: 5bb55fd87f6b376469dba777c55c6468
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1735}
+    spritePosition: {x: 1413, y: 0}
+  - name: Mountain1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 4
+      width: 1664
+      height: 1329
+    spriteID: 56aef541aabdd544eb930a9feaddbbdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 4}
+    spritePosition: {x: 1532, y: 0}
+  - name: Tree
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1944
+      y: 1735
+      width: 481
+      height: 1508
+    spriteID: 07e1c11032bd39a4596a87c82fbedcf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1944, y: 1735}
     spritePosition: {x: 0, y: 0}
+  - name: ground3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3586
+      width: 1306
+      height: 216
+    spriteID: 946b95fe0d1f12840972f91e0b9111cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3586}
+    spritePosition: {x: 1021, y: 0}
+  - name: Ground2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3077
+      width: 1034
+      height: 501
+    spriteID: 48e1f28b08bdb4d43bdd8d7b0790ce43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3077}
+    spritePosition: {x: 0, y: 12}
+  - name: Ground1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2168
+      y: 1341
+      width: 1030
+      height: 321
+    spriteID: 85200df53ab3ce64bad139cf12f23044
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 2168, y: 1341}
+    spritePosition: {x: 1, y: 3}
   characterData:
     bones: []
     parts: []
@@ -201,8 +285,8 @@ ScriptedImporter:
     layerID: 3
     mosaicPosition: {x: 4, y: 2172}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: Layer 1
     spriteName: Layer 1
     isGroup: 0
@@ -210,6 +294,86 @@ ScriptedImporter:
     spriteID: 964d81ba460e2c0429e0e64658a40bd0
     layerID: 2
     mosaicPosition: {x: 1292, y: 2172}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Layer 3
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b574ed89b4b579e45b17b3af2c4bd3ad
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Hut
+    spriteName: Hut
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7f0b5581c749ab048a0cc9131a72fc42
+    layerID: 18
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: MOuntain2
+    spriteName: MOuntain2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5bb55fd87f6b376469dba777c55c6468
+    layerID: 13
+    mosaicPosition: {x: 4, y: 1735}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Mountain1
+    spriteName: Mountain1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 56aef541aabdd544eb930a9feaddbbdb
+    layerID: 10
+    mosaicPosition: {x: 2168, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Tree
+    spriteName: Tree
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 07e1c11032bd39a4596a87c82fbedcf3
+    layerID: 9
+    mosaicPosition: {x: 1944, y: 1735}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ground3
+    spriteName: ground3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 946b95fe0d1f12840972f91e0b9111cd
+    layerID: 6
+    mosaicPosition: {x: 4, y: 3586}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ground2
+    spriteName: Ground2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 48e1f28b08bdb4d43bdd8d7b0790ce43
+    layerID: 5
+    mosaicPosition: {x: 4, y: 3077}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ground1
+    spriteName: Ground1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 85200df53ab3ce64bad139cf12f23044
+    layerID: 4
+    mosaicPosition: {x: 2168, y: 1341}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -221,8 +385,8 @@ ScriptedImporter:
     layerID: 1
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
