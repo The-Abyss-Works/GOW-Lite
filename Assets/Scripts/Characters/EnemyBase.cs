@@ -17,7 +17,7 @@ public class EnemyBase : MonoBehaviour
 
     [Header ("Properties")]
     [SerializeField] private GameObject deathParticles;
-    [SerializeField] private int health = 3;
+    [SerializeField] public int health = 3;
     public AudioClip hitSound;
     public bool isBomb;
     [SerializeField] bool requirePoundAttack; //Requires the player to use the down attack to hurt

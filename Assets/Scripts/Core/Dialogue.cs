@@ -68,6 +68,20 @@ public class Dialogue : MonoBehaviour
             "Get Back To Atreus",
         });
 
+        dialogue.Add("Quest2", new string[] {
+            "Name: The Intruder",
+            "Aim: Kill The Stranger",
+            "Reward: 200 coins",
+            "Failure: Loss of All progress"
+
+        });
+
+        dialogue.Add("Sign1", new string[]
+        {
+            "Pro Tip:",
+            "Go to the cliff and press k",
+            "To Activate the bridge"
+        });
 
 
     }
