@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     [SerializeField] public AudioTrigger gameMusic;
     [SerializeField] public AudioTrigger gameAmbience;
+    [SerializeField] public GameObject clear;
+    public EnemyBase enemy;
+    public GameObject enem;
 
     // Singleton instantiation
     public static GameManager Instance
@@ -28,6 +31,16 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        enem = GameObject.FindGameObjectWithTag("Boss");
+        enemy = enem.GetComponent<EnemyBase>();
+    }
+
+    private void Update()
+    {
+        if (enemy.health <= 0)
+        {
+            clear.SetActive(true);
+        }
     }
 
     // Use this for initialization
