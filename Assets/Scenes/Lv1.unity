@@ -28994,10 +28994,20 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114194960781150434, guid: b022250573709434c9737ce47e1017e3,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114194960781150434, guid: b022250573709434c9737ce47e1017e3,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 114239595744047524, guid: b022250573709434c9737ce47e1017e3,
         type: 3}
       propertyPath: dontDestroyOnLoad
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5433378788908979453, guid: b022250573709434c9737ce47e1017e3,
         type: 3}
@@ -29266,7 +29276,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 556293162}
   - {fileID: 4120437318281813711}
-  - {fileID: 7113145125069167296}
   - {fileID: 1404970985}
   - {fileID: 160178837}
   - {fileID: 521576955446414668}
@@ -29274,3 +29283,4 @@ SceneRoots:
   - {fileID: 1360439630}
   - {fileID: 1055268072}
   - {fileID: 1934270257}
+  - {fileID: 7113145125069167296}
